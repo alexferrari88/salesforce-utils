@@ -1,6 +1,7 @@
 /*------------------------------------------------------------
 Author:        Alex Ferrari
 Description:   Utility class that implements the String.split method to be used in Flows, Einstein Bots, etc.
+How to use:    Just deploy this class to your org and find it in Flows as Action
 Test Class:    TestSplitString
 ------------------------------------------------------------*/
 
