@@ -1,0 +1,28 @@
+<template>
+    <article class="slds-card slds-card_boundary">
+       <div class="slds-page-header forceRelatedListCardHeader">
+          <header class="slds-media slds-media_center slds-has-flexi-truncate">
+             <div class="slds-media__figure">
+                <lightning-icon icon-name={icon} size="small"></lightning-icon>
+             </div>
+             <div class="slds-media__body">
+                <h2 class="slds-card__header-title">
+                   {listTitle}
+                </h2>
+             </div>
+          </header>
+       </div>
+       <template if:true={containsData}>
+          <div class="slds-card__body slds-card__body_inner">
+             <lightning-datatable class="related-list"
+                columns={columns}
+                data={data}
+                key-field="Id"
+                hide-checkbox-column="true"
+                wrap-text-max-lines="1"
+                errors={errors}>
+             </lightning-datatable>
+          </div>
+       </template>
+    </article>
+ </template>
