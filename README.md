@@ -5,6 +5,7 @@ Various bits of code to assist you as Salesforce Developer ☁
 # Apex Classes
 ## SplitString
 **Test Class**: TestSplitString
+
 **Why do I need this?**: Ever needed to split a CSV string in a flow⚡ but don't know how? This class will make your low-code life easier allowing you to do just that!
 
 ### Description 
@@ -16,6 +17,7 @@ I use this a lot in an Einstein Bot where I pass a string with comma-separated v
 
 ## ReplaceString
 **Test Class**: TestSplitString
+
 **Why do I need this?**: Those Einstein Bots🤖 aren't that flexible, am I right? Say you need to replace a placeholder text from a custom metadata with a variable? Well, this class allows you to do just that.
 
 ### Description
