@@ -19,3 +19,10 @@ I use this a lot in an Einstein Bot where I pass a string with comma-separated v
 This class is to be used in Flows or Einstein Bots whenever you need to replace some text with other text.
 
 As for the class above, I use this in Einstein Bots where placeholder text in custom metadata is replaced by text from the bot (e.g. *Hello, #FirstName#!* becomes *Hello, Alex!*)
+
+# Lightning Web Components
+## relatedList
+### Description
+This is a skeleton for a LWC that can be added to the related lists tab of any object. This component only provides the "looks" of how a related list looks like so that it can show up seamlessly in your Related Lists tab. This means that you have to write the business logic yourself to make it work.
+
+It is a good starting point so that you only need to focus on writing the logic, while the design is already taken care of.
