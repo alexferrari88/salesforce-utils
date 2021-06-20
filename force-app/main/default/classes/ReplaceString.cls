@@ -10,7 +10,7 @@ public with sharing class ReplaceString {
      * @return List<ReplaceOutputString> containing outputString where toReplace has been replaced by replaceValue in inputString
      */
      
-    @InvocableMethod(label='Replace a string (String.replace)')
+    @InvocableMethod(label='Replace a string (ReplaceString.ReplaceString)')
     public static List<ReplaceOutputString> ReplaceString(List<ReplaceInputParams> replaceInputParams){
         List<ReplaceOutputString> replaceOutputList = new List<ReplaceOutputString>();
         ReplaceOutputString outputString = new ReplaceOutputString();

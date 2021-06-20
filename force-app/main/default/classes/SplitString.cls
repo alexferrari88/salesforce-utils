@@ -11,7 +11,7 @@ public with sharing class SplitString {
      * @return List<SplitOutputStrings> containing outputList a collection of Strings that were split at separator from inputString
      */
      
-    @InvocableMethod(label='Split a string (String.split)')
+    @InvocableMethod(label='Split a string (SplitString.SplitString)')
     public static List<SplitOutputStrings> SplitString(List<SplitInputParams> SplitInputParams) {
         List<SplitOutputStrings> SplitOutputStringsList = new List<SplitOutputStrings>();
         SplitOutputStrings outputString = new SplitOutputStrings();
